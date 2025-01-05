@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* main */
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(dogyearsphoto.JPG);
+    background-size: cover;
+    background-position: center;
+}
+/* input box*/
+.input-box {
+    background: rgba(0, 0, 0, 0.15);
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    -webkit-backdrop-filter: blur(4);
+    text-align: center;
+    color: antiquewhite;
+    width: 300;
+    box-shadow: 0px 0px 15px 10px rgba(0, 0, 0, 0.15);
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 550;
+    font-family: "Poppins", sans-serif;
+    color: rgb(240, 214, 177);
+    text-align: center;
+    cursor: default;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px; 
+    font-size: 16px; 
+}
+
+input {
+    margin-top: 20px;
+    padding: 8px;
+    font-size: 16px;
+}
+
+input::placeholder {
+    opacity: 70%;
+}
+
+.input-box-num {
+    border-radius: 50px;
+    color: rgb(34, 36, 37);
+    font-weight: 600;
+}
+
+.submitBtn {
+    border-radius: 10px;
+    cursor: pointer;
+}
+/* Input Box Hover*/
+.input-box-num:hover {
+    background: rgb(238, 231, 248);
+}
+/* Submit Button Hover*/
+.submitBtn:hover{
+    background: rgb(235, 226, 226);
+}
+
+p {
+    font-size: 20px;
+    margin-top: 20px;
+    font-family: "Poppins", sans-serif;
+    stroke: black;
+    stroke-width: 60%;
+    color: rgb(255, 206, 206);
+}
